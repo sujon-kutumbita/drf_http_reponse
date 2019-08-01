@@ -17,3 +17,5 @@ Import into your project
 
 Use it in your http response
 - `return success.get_response(message='Successfully Completed', status=200)`
+
+If you use any type of response without passing parameter into it. No problem it will always return a default message. For `result.get_response()` you can pass data or object as a message into it.
