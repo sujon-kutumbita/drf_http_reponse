@@ -11,7 +11,9 @@ DRF
 ## Uses
 Install it by runing
 - `pip install drf-http-response`
+
 Import into your project
 - `from drf_http_response import success, result, error`
+
 Use it in your http response
 - `return success.get_response(message='Successfully Completed', status=200)`
